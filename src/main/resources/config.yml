@@ -1,0 +1,79 @@
+mode: whitelist  # Can also be 'blacklist'
+
+# Permission node that allows a player to see all commands
+adminperm: simplecmdhide.admin  # Players with this permission can see all commands
+
+# Message sent to players when they try to execute an invalid command
+invalid-command-message: '&4&lHydraQuest&8 » &cYou do not have permission to execute this command, or this command does not exist if you believe this is a mistake please contact a server administrator.'
+
+# Message sent when the plugin is reloaded
+reload-message: '&4&lCmdHide&8 » &aSimpleCmdHide configuration reloaded!'
+
+# Define LuckPerms groups and associated commands under the 'groups' section
+groups:
+  default:  # Default group with no parent
+    commands:
+      - rtp
+      - msg
+      - team
+      - spawn
+      - help
+      - ah
+      - auctionhouse
+      - shop
+      - skills
+      - skilltop
+      - skill
+      - skillrank
+      - levels
+      - clans
+      - w
+      - tpa
+      - tpask
+      - tpahere
+      - tpaccept
+      - tpdeny
+      - tpacancel
+      - home
+      - sethome
+      - renamehome
+      - delhome
+      - msgtoggle
+      - pay
+      - ranks
+      - bind
+      - warp
+      - coinshop
+      - tags
+      - cosmetics
+  solar:  # Plus group that inherits from the 'default' group
+    parent: default
+    commands:
+      - tpauto
+      - fly
+  astral:  # VIP group that inherits from the 'plus' group
+    parent: solar
+    commands:
+      - craft
+      - recipe
+      - disposal
+      - hat
+  cosmic:  # VIP group that inherits from the 'plus' group
+    parent: astral
+    commands:
+      - clear
+      - near
+      - echest
+      - ptime
+  abyss:  # VIP group that inherits from the 'plus' group
+    parent: cosmic
+    commands:
+      - kittycannon
+      - feed
+      - heal
+      - pweather
+  media:  # VIP group that inherits from the 'plus' group
+    parent: abyss
+    commands:
+      - example5
+      - example6

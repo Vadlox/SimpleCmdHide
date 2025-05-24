@@ -1,0 +1,10 @@
+name: SimpleCmdHide
+version: '1.0'
+main: vadlox.dev.simpleCmdHide.SimpleCmdHide
+depend:
+  - LuckPerms
+api-version: '1.21'
+description: The Ultimate Clans Plugin.
+website: vadlox.hydraquest.net
+loadbefore:
+  - LuckPerms
