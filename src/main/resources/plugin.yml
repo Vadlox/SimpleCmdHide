@@ -6,5 +6,4 @@ depend:
 api-version: '1.21'
 description: The Ultimate Clans Plugin.
 website: vadlox.hydraquest.net
-loadbefore:
-  - LuckPerms
+load: POSTWORLD
