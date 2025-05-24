@@ -7,3 +7,8 @@ api-version: '1.21'
 description: The Ultimate Clans Plugin.
 website: vadlox.hydraquest.net
 load: POSTWORLD
+commands:
+  simplecmdhide:
+    description: Reloads the SimpleCmdHide plugin configuration
+    usage: /<command> reload
+    permission: simplecmdhide.reload
