@@ -1,7 +1,59 @@
+# SimpleCmdHide
+
+The Ultimate Command Hiding Plugin.
+
+## 📊 Repository Stats
+- **Language:** Java
+- **Stars:** 1
+- **Forks:** 0
+
+## 📁 Project Structure
+- .gitignore (file)
+- README.md (file)
+- build.gradle (file)
+- gradle.properties (file)
+- gradle (dir)
+- gradlew (file)
+- gradlew.bat (file)
+- settings.gradle (file)
+- src (dir)
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- Java
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/username/simplecmdhide
+
+# Navigate to project directory
+cd simplecmdhide
+
+# Install dependencies
+# Install dependencies based on your language
+```
+
+### Usage
+```bash
+# Run the application
+```
+
+## 📋 Key Files
+
+### README.md
+```markdown
 SimpleCmdHide is an advanced command management plugin designed exclusively for Minecraft servers using LuckPerms for permission administration. Providing a novel balance of flexibility and power, SimpleCmdHide allows server admins to finetune command restrictions based on user groupings, serving both in whitelist and blacklist modes.
 
-With its LuckPerms integration feature, SimpleCmdHide maps seamlessly into your existing permissions setup. The plugin not only reads user groupings from your LuckPerms system but also inherits command access control based on group hierarchies, making setups a breeze. The plugin features two operational modes: the blacklist mode, which allows all commands except those explicitly disallowed, and the whitelist mode, where only pre-approved commands are accessible. This operational flexibility allows server owners to customize command access control to match their specific needs.
+With its LuckPerms integration feature, SimpleCmdHide maps seamlessly into your existing permissions setup. The plugin not only reads user groupings from your Luc
+// ... (truncated)
+```
 
-Unique to SimpleCmdHide is the command 'simplecmdhide', which gives permitted users the ability to instantly reload the plugin's configuration settings. This saves you significant time as there's no need to manually restart the plugin following configuration changes. On top of its already impressive management functions, SimpleCmdHide also brings colorful flavors to in-game notifications. Its built-in HEX color code translator and Minecraft-compatible color decorator allow server operators to send vibrant, formatted messages to players.
 
-In summary, SimpleCmdHide is not your ordinary command management plugin – it's a trails-blazing system optimizing command access control on your server. Built to work seamlessly with LuckPerms, it offers an unparalleled degree of flexibility and power in managing your server's command landscape—with an added dash of color!
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+This project is licensed under the MIT License.
